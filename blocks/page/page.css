@@ -1,0 +1,9 @@
+.page {
+    min-width: 1280px;
+    min-height: 6875px;
+    margin: 28px auto;
+    font-family: 'Inter', 'Arial', sans-serif;
+    color: white;
+    background-color: #2A2C2F;
+  }
+  
