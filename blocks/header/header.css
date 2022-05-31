@@ -1,8 +1,9 @@
 .header {
     width: 1184px;
     margin: 0 auto;
+    padding-top: 28px;
     border: 1px red solid;
     display: flex;
     justify-content: space-between;
-    padding-top: 28px;
+    align-items: flex-end;
 }
