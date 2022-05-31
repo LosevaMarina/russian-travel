@@ -1,7 +1,4 @@
 .header__lang-links {
-    position: absolute;
-    top: 18px;
-    right: 0;
     list-style-type: none;
     display: flex;
     border: 1px red solid;

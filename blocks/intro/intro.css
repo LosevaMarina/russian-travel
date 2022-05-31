@@ -1,5 +1,5 @@
 .intro {
-    display: flex;
+    /*display: flex;
     flex-direction: column;
     width: 690px;
     min-height: 429px;
@@ -7,5 +7,11 @@
     margin: 0;
     margin-top: 92px;
     margin-left: 148px;
-    margin-bottom: 92px;;
+    margin-bottom: 92px;*/
+
+    margin: 92px auto;
+    max-width: 984px;
+    display: flex;
+    flex-direction: column;
+    border: 1px red solid;
 }

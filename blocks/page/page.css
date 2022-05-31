@@ -1,9 +1,9 @@
 .page {
     max-width: 1280px;
-    min-height: 6875px;
-    margin: 28px auto;
+    margin: 0 auto;
     font-family: 'Inter', 'Arial', sans-serif;
     color: white;
     background-color: #2A2C2F;
+    display: inline-block;
   }
   
