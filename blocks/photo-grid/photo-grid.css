@@ -1,14 +1,11 @@
 .photo-grid {
-    max-width: calc(100% - 96px);
+    max-width: 1184px;
     margin: 0 auto 92px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 16px;
-    border: 1px red solid;
-/*
-    max-width: 1184px;
-    margin: auto;
-    margin-top: 92px;
-    padding: 0 48px 0 48px;*/
+  /*  border: 1px red solid;
+
+    max-width: calc(100% - 96px);*/
 }
