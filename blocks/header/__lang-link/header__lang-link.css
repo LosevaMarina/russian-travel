@@ -1,3 +1,10 @@
+@media (max-width: 320px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  }
+
 .header__lang-link {    
     padding-right: 18px;    
     color: white;
@@ -8,7 +15,5 @@
   }
   .header__lang-link:last-of-type {
     padding-right: 0px;
-  }
-  .header__lang-link:last-of-type {
     text-decoration: none;
   }

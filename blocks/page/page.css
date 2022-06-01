@@ -4,7 +4,6 @@
     font-family: 'Inter', 'Arial', sans-serif;
     color: white;
     background-color: #2A2C2F;
-    display: block;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -12,4 +11,3 @@
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
   }
-  

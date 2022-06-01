@@ -1,9 +1,16 @@
 .header {
-    width: 1184px;
-    margin: 0 auto;
-    padding-top: 28px;
-    /*border: 1px red solid;*/
+    margin: 28px auto;
+    padding-top: 0;
+    max-width: calc(100% - 96px);
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    border: 1px red solid;
     align-items: flex-end;
+}
+@media (max-width: 768px)
+{
+.header {
+    max-width: calc(100% - 48px);
+}
 }

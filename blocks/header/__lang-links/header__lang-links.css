@@ -1,5 +1,5 @@
 .header__lang-links {
-    list-style-type: none;
-    display: flex;
-    /*border: 1px red solid;*/
+  margin: 0;
+  display: flex;
+  /*border: 1px red solid;*/
   }
