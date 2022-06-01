@@ -8,9 +8,16 @@
     border: 1px red solid;
     align-items: flex-end;
 }
-@media (max-width: 768px)
+@media (max-width: 1024px)
 {
 .header {
     max-width: calc(100% - 48px);
+}
+}
+@media (max-width: 768px)
+{
+.header {
+    max-width: calc(100% - 24px);
+    margin: 12px auto;
 }
 }
