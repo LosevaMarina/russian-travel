@@ -2,13 +2,28 @@
     margin: 0 auto;
     margin-top: 32px;
     max-width: 360px;
-    max-height: 66px;
-    min-height: 48px;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 22px;
     text-align: center;
     color: white;
     z-index: 1;
+}
+
+@media (max-width: 768px)
+{
+.cover__subtitle {
+    font-size: 14px;
+    /*768px font-size: 18px;*/
+    line-height: 1.14;
+    max-width: 256px;
+}
+}
+
+@media (max-width: 320px)
+{
+.cover__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+    max-width: 255px;
+}
 }

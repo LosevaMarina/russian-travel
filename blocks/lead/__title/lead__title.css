@@ -9,12 +9,20 @@
     /*border: 1px red solid;*/
 }
 
-@media (max-width: 767px)
+@media (max-width: 768px)
+{
+.lead__title {
+    font-size: 12.5vw;
+    /*320px font-size: 40px;*/
+    line-height: 13.75vw;
+}
+}
+
+@media (max-width: 320px)
 {
 .lead__title {
     font-size: 40px;
     line-height: 44px;
-    max-width: 288px;
     margin: 0 auto 16px;
 }
 }

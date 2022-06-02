@@ -1,8 +1,8 @@
 .footer__link {
     margin-right: 18px;
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
+    line-height: 24px;
     color: white;
     text-decoration: none;
     opacity: 1;
@@ -11,4 +11,13 @@
 .footer__link:last-of-type {
     margin-right: 0;
     margin-bottom: 0;
+}
+
+@media (max-width: 668px)
+{
+.footer__link {
+    margin-bottom: 32px;
+    font-size: 24px;
+    line-height: 24px;
+}
 }

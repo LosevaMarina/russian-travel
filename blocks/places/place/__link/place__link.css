@@ -5,3 +5,18 @@
     color: #fff;
     transition: 0.5s ease-in-out;
 }
+
+@media (max-width: 767px)
+{
+.place__link {
+    width: calc(100% - 32px);
+}
+}
+
+@media (max-width: 320px)
+{
+.place__link {
+    width: calc(100% - 32px);
+    padding-left: 16px;
+}
+}

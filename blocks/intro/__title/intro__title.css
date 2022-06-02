@@ -6,3 +6,20 @@
     line-height: 58px;
     margin: 0;
 }
+
+@media (max-width: 768px)
+{
+.intro__title {
+    font-size: 10vw;
+    /*320px font-size: 32px;*/
+    line-height: 10.94vw;
+}
+}
+
+@media (max-width: 320px)
+{
+.intro__title {
+    font-size: 32px;
+    line-height: 35px;
+}
+}

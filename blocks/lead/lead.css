@@ -2,9 +2,7 @@
     display: flex;
     margin: 56px auto 0;
     flex-direction: column;
-    /*max-width: 984px;*/
     max-width: calc(100% - 296px);
-    border: 1px red solid;
 }
 
 @media (min-width: 769px) and (max-width: 1024px)

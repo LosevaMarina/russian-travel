@@ -5,8 +5,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 1px red solid;
-    align-items: flex-end;
+    align-items: center;
 }
 
 @media (max-width: 1024px)
