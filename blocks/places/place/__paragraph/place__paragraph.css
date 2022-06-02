@@ -6,3 +6,24 @@
     font-size: 18px;
     line-height: 163%;
 }
+
+@media (min-width: 769px) and (max-width: 1024px)
+{
+    .place__paragraph {
+        max-width: 456px;
+  }
+}
+  
+@media (max-width: 768px)
+{
+  .place__paragraph {
+    max-width: 352px;
+  }
+}
+  
+@media (max-width: 320px)
+{
+  .place__paragraph {
+    max-width: 288px;   
+  }
+}

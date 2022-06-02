@@ -1,9 +1,36 @@
 .place {
     display: grid;
     grid-template-columns: minmax(460px, 460px) minmax(456px, 484px);
+    /*grid-template-columns: 1fr 1.035fr;*/
     gap: 48px 40px;
     margin-bottom: 80px;
 }
 .place:last-of-type {
     margin-bottom: 0px;
   }
+
+@media (min-width: 769px) and (max-width: 1024px)
+{
+    .place {
+        grid-template-columns: 1fr 1fr;
+        gap: 48px 32px;
+  }
+}
+  
+@media (max-width: 768px)
+{
+  .place {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 48px 28px;
+    margin-bottom: 73px;
+  }
+}
+  
+@media (max-width: 320px)
+{
+  .place {
+    gap: 32px 32px;
+    margin-bottom: 50px;
+    grid-template-columns: 1fr;    
+  }
+}
