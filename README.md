@@ -8,4 +8,30 @@
 ~ трасформация элементов при наведении мыши, 
 ~ подключены шрифты и добавлены картинки с пройденой оптимизацией для более быстрой загрузки сайта, 
 ~ прописаны медиа-запросы для разного разрешения экрана, что делает сайт адаптивным
+В проекте присутствуют ссылки:
+1. Куршская коса:
+http://park-kosa.ru
+2. Кольский:
+https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy
+3. Алтай:
+https://www.facebook.com/vera.bashmakova/posts/10156011613718822
+4. Зимний Байкал:
+https://vk.com/baikalmile
+5. Карелия:
+http://vodlozero.ru
+cover
+1. До Байкала на собаках:
+https://stampsy.com/na-elektrichkakh-do-baikala
+footer
+1. Карты:
+https://yandex.ru/maps
+2. Погода:
+https://yandex.ru/pogoda
+3. Расписание:
+https://rasp.yandex.ru
+4. Календарь:
+https://calendar.yandex.ru
+5. Путешествия:
+https://travel.yandex.ru
+
 GitHub Pages: https://losevamarina.github.io/russian-travel/
