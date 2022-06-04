@@ -1,5 +1,6 @@
 .header {
-    margin: 28px auto;
+    margin: auto;
+    margin-top: 28px;
     padding-top: 0;
     max-width: calc(100% - 96px);
     display: flex;
@@ -8,17 +9,17 @@
     align-items: center;
 }
 
-@media (max-width: 1024px)
+@media (max-width: 768px)
 {
 .header {
     max-width: calc(100% - 48px);
 }
 }
 
-@media (max-width: 768px)
+@media (max-width: 320px)
 {
 .header {
-    max-width: calc(100% - 24px);
-    margin: 12px auto;
+    max-width: calc(100% - 32px);
+    margin-top: 16px;
 }
 }

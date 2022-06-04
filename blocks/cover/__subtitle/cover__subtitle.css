@@ -9,21 +9,12 @@
     z-index: 1;
 }
 
-@media (max-width: 768px)
-{
-.cover__subtitle {
-    font-size: 14px;
-    /*768px font-size: 18px;*/
-    line-height: 1.14;
-    max-width: 256px;
-}
-}
-
-@media (max-width: 320px)
+@media (max-width: 767px)
 {
 .cover__subtitle {
     font-size: 14px;
     line-height: 16px;
-    max-width: 255px;
+    max-width: 288px;
+    margin-top: 16px;
 }
 }

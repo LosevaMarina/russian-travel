@@ -34,11 +34,19 @@
 }
 }
 
-@media (max-width: 320px)
+@media (max-width: 768px)
 {
 .photo-grid {
   max-width: calc(100% - 32px);
   grid-template-columns: repeat(1, 1fr);
   gap: 12px;
+  margin: 0 auto 90px;
+}
+}
+
+@media (max-width: 320px)
+{
+.photo-grid {
+  margin: 0 auto 66px;
 }
 }

@@ -5,8 +5,8 @@
     line-height: 24px;
     color: white;
     text-decoration: none;
-    opacity: 1;
     transition: 0.3s ease;
+    opacity: 0.8;
 }
 .footer__link:last-of-type {
     margin-right: 0;

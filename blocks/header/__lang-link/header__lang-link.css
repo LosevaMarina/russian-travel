@@ -1,11 +1,13 @@
 .header__lang-link {    
-    padding-right: 18px;    
+    margin-right: 18px;    
     color: white;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
     text-decoration: none;
+    transition: 0.5s ease-in-out;
+    opacity: 0.8;
   }
   
 .header__lang-link:active  {
