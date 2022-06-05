@@ -1,18 +1,22 @@
 .header__lang-link {    
-    margin-right: 18px;    
+    margin-right: 18px;   
+    margin-bottom: 6px; 
     color: white;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
     text-decoration: none;
+  }
+
+  .header__lang-link:last-of-type {
+    margin-right: 0; 
+  }
+
+  .header__lang-link:hover {
     transition: 0.5s ease-in-out;
     opacity: 0.8;
   }
-  
-.header__lang-link:active  {
-  text-decoration: underline;
-}
 
 @media (max-width: 668px)
 {
@@ -21,9 +25,3 @@
   line-height: 20px;
 }
 }
-@media (max-width: 320px) {
-  .header__lang-link {
-    font-size: 18px;
-    line-height: 20px;
-  }
-  }  

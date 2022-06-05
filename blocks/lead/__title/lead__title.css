@@ -1,6 +1,6 @@
 .lead__title {
     font-size: 96px;
-    line-height: 104%;
+    line-height: 1.04;
     max-width: 720px;
     font-style: normal;
     font-weight: 900;
@@ -14,7 +14,6 @@
 .lead__title {
     font-size: 12.5vw;
     /*320px font-size: 40px;*/
-    line-height: 13.75vw;
 }
 }
 

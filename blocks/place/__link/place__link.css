@@ -3,8 +3,11 @@
     line-height: 1.22;
     font-weight: 400;
     color: #fff;
+}
+
+.place__link:hover {
     transition: 0.5s ease-in-out;
-    opacity: 0.8;
+    opacity: 0.1;
 }
 
 @media (max-width: 767px)
@@ -17,7 +20,6 @@
 @media (max-width: 320px)
 {
 .place__link {
-    width: calc(100% - 32px);
     padding-left: 16px;
 }
 }
