@@ -35,9 +35,10 @@
 }
 }
 
-@media (max-width: 320px)
+@media (max-width: 767px)
 {
 .photo-grid {
+  grid-template-columns: 1fr;
   margin: 0 auto 66px;
 }
 }
